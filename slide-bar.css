@@ -1,0 +1,80 @@
+.slide-bar{
+	height: 378.844px;
+	width: 100%;
+	background-image: url('https://zingtv-photo-td.zadn.vn/channel/3/d/b/6/3db61c4c13f71d94978f74c5e740a118.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	transition: all 0.3s;
+	z-index: 0;
+}
+.slide-bar .left{
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	color: #fff;
+	line-height: 50px;
+	position: absolute;
+	top: 160px;
+	left: 0px;
+}
+.slide-bar .right{
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	color: #fff;
+	line-height: 50px;
+	position: absolute;
+	top: 160px;
+	right: 0px;
+}
+.slide-bar .left i,.slide-bar .right i{
+	margin-left: 12px;
+}
+.slide-bar .left:hover,.slide-bar .right:hover{
+	background-color: #333;
+	cursor: pointer;
+}
+.slide-bar:hover .left{
+	transform: translate(80px,0px);
+	transition: all 0.3s; 
+}
+.slide-bar:hover .right{
+	transform: translate(-80px,0px);
+	transition: all 0.3s; 
+}
+
+/*small image*/
+.slide-bar .small-img{
+	display: flex;
+	position: absolute;
+	right: 60px;
+	bottom: 20px;
+}
+.slide-bar .small-img .list1{
+	width: 60px;
+	height: 60px;
+	background-image: url('https://zingtv-photo-td.zadn.vn/channel/0/9/6/9/0969f70582f22e4ddf2e8497d26509ea.jpg');
+	background-size: cover;
+	background-position: center;
+	margin-left: 10px;
+}
+
+.slide-bar .small-img .list1:hover{
+	box-sizing: border-box;
+	transition: all 0.1s; 
+	border: 2px solid #fff;
+}
+
+.slide-bar .small-img .list2{
+	background-image: url('https://zingtv-photo-td.zadn.vn/channel/0/6/1/8/0618668c5743c58433c497970c82d789.jpg');
+}
+.slide-bar .small-img .list3{
+	background-image: url('https://zingtv-photo-td.zadn.vn/channel/e/4/1/7/e4179468c3a9db8537d75ec49f7fba11.jpg');
+}
+.slide-bar .small-img .list4{
+	background-image: url('https://zingtv-photo-td.zadn.vn/channel/5/f/4/4/5f4489edb3c54e981be6000a794bab0a.jpg');
+}
+.slide-bar .small-img .list5{
+	background-image: url('https://zingtv-photo-td.zadn.vn/channel/d/9/6/6/d966471532410cbd8145bbb7d406da7c.jpg');
+}

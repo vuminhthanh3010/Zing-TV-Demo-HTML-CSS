@@ -1,0 +1,81 @@
+.menu-bar{
+	height: 32px;
+	background-color: #f7f7f7;
+	display: flex;
+	position: relative;
+	z-index: 1
+}
+.menu-bar .logo{
+	font-size: 20px;
+	margin-left: 77px;
+	margin-right: 15px;
+}
+.menu-bar .logo a{
+	color: #333;
+}
+.menu-bar .list-menu{
+	display: flex;
+	line-height: 32px;
+}
+.menu-bar .list-menu ul li{
+	list-style-type: none;
+	padding: 0px 15px 0px 15px;
+}
+.menu-bar .list-menu ul li a{
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+}
+.menu-bar .list-menu ul li:hover{
+	background-color: #fff;
+	border:1px solid #ebebeb;
+	
+}
+.list-menu .tv-show .list-tv-show{
+	display: flex;
+	margin-left:-15px;
+	display: none;
+	position: absolute;
+	top: 32px;
+}
+.list-menu .tv-show .list-tv-show ul li{
+	border:1px solid #ebebeb;
+}
+.list-menu .tv-show .list-tv-show ul li:hover{
+	background-color: #7ebd03;
+}
+.list-menu .tv-show .list-tv-show ul li:hover a{
+	color: #fff;
+}
+.list-menu .tv-show:hover .list-tv-show{
+	background-color: #fff;
+	display: flex;
+}
+.list-menu .smile:hover .list-tv-show{
+	background-color: #fff;
+	display: flex;
+}
+.list-menu .film-tv:hover .list-tv-show{
+	background-color: #fff;
+	display: flex;
+}
+.list-menu .cartoon:hover .list-tv-show{
+	display: flex;
+	background-color: #fff;
+}
+.list-menu .children:hover .list-tv-show{
+	background-color: #fff;
+	display: flex;
+}
+.list-menu .education:hover .list-tv-show{
+	background-color: #fff;
+	display: flex;
+}
+.list-menu .film:hover .list-tv-show{
+	background-color: #fff;
+	display: flex;
+}
+.list-menu .music:hover .list-tv-show{
+	background-color: #fff;
+	display: flex;
+}

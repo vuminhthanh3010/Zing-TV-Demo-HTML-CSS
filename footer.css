@@ -1,0 +1,97 @@
+.footer .intro{
+	height: 290px;
+	background-color: #dedede;
+}
+.footer .intro p{
+	margin-left: 77px;
+	padding-top: 20px;
+	font-size: 13px;
+	color: #333;
+}
+.footer .intro1{
+	display: flex;
+	margin-left: 77px;
+	padding: 30px 0px;
+}
+.intro1 .box {
+	width: 102px;
+	height: 49px;
+	background-size: cover;
+	background-position: center;
+	margin-right: 15px;
+}
+.intro1 .box1{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/HTV.jpg');
+}
+.intro1 .box2{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/mbc2.jpg');
+}
+.intro1 .box3{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/sbs.jpg');
+}
+.intro1 .box4{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/SCJ.png');
+}
+.intro1 .box5{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/VTV.png');
+}
+.intro1 .box6{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/cattiensa.png');
+}
+.intro1 .box7{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/123phim.png');
+}
+.intro1 .box8{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/SamSung.png');
+}
+.intro1 .box9{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/Sony.jpg');
+}
+.intro1 .box10{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/LG.jpg');
+}
+.intro1 .box11{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/TCL.jpg');
+}
+.intro1 .box12{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/Panasonic.png');
+}
+.intro1 .box13{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/GoogleTV.jpg');
+}
+.intro1 .box14{
+	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/Open_TV_Browse.jpg');
+}
+
+.footer .footer-menu {
+    height: 97px;
+    background-color: #1c1c1c;
+    display: flex;
+    font-size: 11px;
+    position: relative;
+}
+.footer-menu .left{
+	color: #acacac;
+	padding-top: 20px;
+	padding-left: 80px;
+}
+.footer-menu .right{
+	height: 80px;
+	display: flex;
+	border-bottom: 1px solid #acacac;
+	margin-left: 200px;
+}
+.footer-menu .right ul{
+	margin-left: 0px;
+	margin-right: 200px;
+}
+.footer-menu .right ul li:hover{
+	text-decoration: underline;
+}
+.footer-menu .right img{
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	right: 58px;
+	top: 20px;
+}

@@ -19,11 +19,10 @@ body{
 	background-image: url('https://zingtv-photo-td.zadn.vn/tv_media_470_272/6/d/e/1/6de17134da75a87c974675349b7be5b2.jpg');
 	background-size: cover;
 	background-position: center;
-/*	margin-left: 72px;
-	margin-top: 77px;*/
 	margin-left: 72px;
 	margin-top: 20px;
 	position: relative;
+	cursor: pointer;
 }
 .big-video .child-01{
 	background-image: url('https://zingtv-photo-td.zadn.vn/tv_media_470_272/d/7/5/b/d75b5558a5209a240db53f21135f2ee0.jpg');
@@ -44,8 +43,6 @@ body{
 	left: 10px;
 	bottom: 30px;
 	font-weight: 600;
-
-
 }
 .child a:last-child{
 	color:#7ebd03;
@@ -65,7 +62,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	position: relative;
-	/*padding: 20px;*/
+	cursor: pointer;
 }
 .small-video .child11{
 	background-image: url('https://zingtv-photo-td.zadn.vn/tv_media_225_126/2016/1128/18/199bcaacb0b2c7986be9ec4cc1c5523d_1480404046.jpg');
@@ -368,94 +365,3 @@ body{
     padding-bottom: 80px;
 }
 
-.footer .intro{
-	height: 290px;
-	background-color: #dedede;
-}
-.footer .intro p{
-	margin-left: 77px;
-	padding-top: 20px;
-	font-size: 13px;
-	color: #333;
-}
-.footer .intro1{
-	display: flex;
-	margin-left: 77px;
-	padding: 30px 0px;
-}
-.intro1 .box {
-	width: 102px;
-	height: 49px;
-	background-size: cover;
-	background-position: center;
-	margin-right: 15px;
-
-}
-.intro1 .box1{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/HTV.jpg');
-}
-.intro1 .box2{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/mbc2.jpg');
-}
-.intro1 .box3{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/sbs.jpg');
-}
-.intro1 .box4{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/SCJ.png');
-}
-.intro1 .box5{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/VTV.png');
-}
-.intro1 .box6{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/cattiensa.png');
-}
-.intro1 .box7{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/partner/123phim.png');
-}
-.intro1 .box8{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/SamSung.png');
-}
-.intro1 .box9{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/Sony.jpg');
-}
-.intro1 .box10{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/LG.jpg');
-}
-.intro1 .box11{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/TCL.jpg');
-}
-.intro1 .box12{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/Panasonic.png');
-}
-.intro1 .box13{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/GoogleTV.jpg');
-}
-.intro1 .box14{
-	background-image: url('https://zingtv-static.zadn.vn/skins/tv_v3/images/device/Open_TV_Browse.jpg');
-}
-
-.footer .footer-menu{
-	height: 197px;
-	background-color: #1c1c1c;
-	display: flex;
-	font-size: 11px;
-	
-}
-.footer-menu ul{
-	margin-left: 77px;
-	margin-top: 20px;
-	margin-right: 30px;
-
-}
-.footer-menu li{
-	list-style-type: none;
-	margin-bottom: 5px;
-}
-.footer-menu li a{
-	text-decoration: none;
-	color: #acacac;
-}
-.footer-menu ul li:first-child{
-	color: #fff;
-	margin-bottom: 10px;
-}

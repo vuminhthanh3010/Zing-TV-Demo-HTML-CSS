@@ -1,0 +1,84 @@
+
+.header{
+	height: 40px;
+	width: 1366px;
+	background-color: #1c1c1c;
+	display: flex;
+	position: relative;
+	z-index: 5;
+}
+.header .logo{
+	width: 145px;
+	height: 40px;
+	background-image: url('./logo.jpg');
+	background-size: cover;
+	background-position: center;
+	margin-left: 77px;
+}
+.search-box input{
+	height: 15px;
+	padding: 5px;
+	width: 377px;
+	border-style: none;
+	border-radius: 3px;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+.search-box .fas{
+	height: 15px;
+	color:#fff;
+	padding: 5px;
+	background-color: #7ebd03;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+	position: absolute;
+	top: 7px;
+	right: 720px;
+}
+
+.header .list-item ul{
+	display: flex;
+	line-height: 40px;
+	margin-left: 20px;
+}
+.header .list-item ul li{
+	list-style-type: none;
+	padding: 0px 12px 0px 12px;
+}
+.header .list-item ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+}
+.header .list-item ul li:hover{
+	background-color: #000;
+}
+.header .list-item ul li:hover a{
+	background-color: #000;
+	color:#7ebd03;
+}
+.header .adblock,.header .login{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 150px;
+	line-height: 40px;
+}
+.header .adblock a,.header .login a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.header .adblock .fas{
+	margin-right: 5px;
+}
+.header .login{
+	position: absolute;
+	right: 60px;
+}
+.header .login:hover {
+	text-decoration: underline;
+}
+.header .adblock:hover a{
+	color:#999;
+}
